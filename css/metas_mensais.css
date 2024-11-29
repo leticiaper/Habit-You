@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Protest+Strike&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Protest+Strike&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Protest+Strike&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+.navbar{
+  background-color: #fff;
+  height: 65px;
+  color:rgb(110, 81, 65) ;
+  font-weight: bold;
+  font-family: "Protest Strike", serif;
+}
+
+.home{
+  color:rgb(230, 81, 0) ;
+  text-decoration: none;
+}
+
+.home:hover{
+  color: rgb(230, 81, 0);
+}
+
+.nav-container{
+  background-color:	#fff;
+}
+
+body, html {
+  margin: top 50px;;
+  padding: 0;
+  background-color: rgb(230, 81, 0);
+  background: linear-gradient(to right, #ff7e5f, #feb47b);
+  }
+
+  .nav-item{
+    color:rgb(110, 81, 65); 
+    margin-right: 10px;
+  }
+
+  .semana{
+    display: flex;
+    justify-content: center;
+    font-family: "Sour Gummy", serif;
+    color:#4A5568;
+  }
+
+.img_button{
+  width: 20px;
+}
+
+.button_img{
+  width: 20px;
+  background-color: transparent;
+  border: none;
+}
+
+.row-edit{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.back{
+  display: flex;
+  justify-content: start;
+  justify-items: center;
+  width: 30px;
+}

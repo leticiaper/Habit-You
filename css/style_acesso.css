@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Protest+Strike&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Protest+Strike&display=swap');
+.navbar{
+  background-color: #fff;
+  height: 65px;
+  color:rgb(110, 81, 65) ;
+  font-weight: bold;
+  font-family: "Protest Strike", serif;
+}
+
+.home{
+  color:rgb(230, 81, 0) ;
+  text-decoration: none;
+}
+
+.home:hover{
+  color: rgb(230, 81, 0);
+}
+
+.nav-container{
+  background-color:	#fff;
+}
+
+body, html {
+  margin: top 50px;;
+  padding: 0;
+  background-color: rgb(230, 81, 0);
+  background: linear-gradient(to right, #ff7e5f, #feb47b);
+  }
+
+  .nav-item{
+    color:rgb(110, 81, 65); 
+    margin-right: 10px;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 100%;
+  }
+  
+  .centered-image {
+    max-width: 100%;
+    max-height: 200%;
+  }
+  
+  .center-text{
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color:rgb(110, 81, 65);
+  font-family: "Bebas Neue", sans-serif;
+  }
+
+  .login-container{
+    position: absolute;
+    top:35%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  
+  }
+
+  .login-container {
+    width: 300px;
+    margin: 100px auto;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgb(230, 81, 0);
+    padding: 30px;
+    text-align: center;
+  }
+
+  .input-group {
+    margin-bottom: 20px;
+  }
+
+  .input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.3s ease;
+  }
+
+  button {
+    width: 100%;
+    padding: 10px 20px;
+    background-color:rgb(230, 81, 0);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .forgot-password {
+    display: block;
+    margin-top: 10px;
+    color:rgb(230, 81, 0);
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  .logo{
+    width: 50px;
+  }
+

@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Protest+Strike&display=swap');
+
+.navbar{
+    background-color: #fff;
+    height: 65px;
+    color:rgb(110, 81, 65) ;
+    font-weight: bold;
+    font-family: "Protest Strike", serif;
+  }
+
+.home{
+  display: flex;
+  flex-direction: row;
+  color:rgb(230, 81, 0) ;
+  text-decoration: none;
+}
+
+.home:hover{
+  color: rgb(230, 81, 0);
+}
+
+.nav-container{
+  background-color:	#fff;
+}
+
+body, html {
+  margin: top 50px;;
+  padding: 0;
+  background-color: rgb(230, 81, 0);
+  background: linear-gradient(to right, #ff7e5f, #feb47b);
+  }
+
+.nav-item{
+  width: auto; 
+  height: auto;
+  margin-right: 10px;
+}
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 100%;
+  }
+
+  .container2{
+    display: flex;
+    justify-content: center; /* Centraliza os cards horizontalmente */
+    gap: 20px; /* Espaço entre os cards */
+    margin-top: 220px;
+  }
+  
+  .card {
+    background-color: #fff; /* Fundo semi-transparente */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra suave */
+    padding: 20px;
+    width: 300px; /* Largura pequena */
+    text-align: center;
+}
+
+/* Estilo do título do card */
+.card h3 {
+    margin-top: 0;
+    font-size: 18px;
+    color: #333;
+}
+
+/* Estilo da descrição do card */
+.card p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+/* Estilo do botão */
+.card button {
+    background-color: rgb(230, 81, 0);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+/* Efeito hover no botão */
+.card button:hover {
+    background-color:  rgb(230, 81, 0);
+}
+
+.menu-container{
+  position: relative; /* Necessário para posicionar o menu dropdown */
+  display: inline-block;
+}
+
+.menu-btn {
+  background-color: rgb(230, 81, 0);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.divisao-metas, .divisao-relatorios{
+    display: none; /* Oculta o menu inicialmente */
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.8);;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    border-radius: 5px;
+    top: 40px; /* Distância do botão */
+    right: 0;
+    z-index: 1;
+}
+
+/* Links do menu */
+.divisaMetas a {
+  color: #333;
+  text-decoration: none;
+  display: block;
+  padding: 10px 20px;
+  font-size: 14px;
+}
+
+.divisaoMetas a:hover {
+  background-color: rgba(255, 255, 255, 0.5); /* Efeito hover semi-transparente */
+
+}
