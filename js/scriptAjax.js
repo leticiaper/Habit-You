@@ -1,18 +1,19 @@
 function formulario(values){
     let form = `
-        <form id="form${values}" method="POST">
-            <div>
+        <form id="form${values}" class="form_metas">
+            <div class="input-container">
+                <input type="text" id="nome" name="nome" placeholder=" " required>
                 <label for="nome">Nome da meta:</label>
-                <input type="text" id="nome" name="nome" required>
             </div>
-            <div>
+            <div class="input-container">
+                <input type="text" id="descricao" name="descricao" placeholder=" " required>
                 <label for="descricao">Descrição da meta:</label>
-                <input type="text" id="descricao" name="descricao" required>
             </div>
             <div>
                 <button type="submit">Salvar meta</button>
             </div>
         </form>
+
     `;
 
     let div = document.getElementById('div_form');
@@ -196,7 +197,7 @@ function buscar_metas(id){
                     }else{
                         check= `
                             <label>Progresso:</label>
-                            <input type = "radio" id="status_meta" name = "status_meta${count}" value = "progresso" onclick="atuaizar_meta( ${meta.id_meta},'progresso')">
+                            <input type = "radio" id="status_meta" name = "status_meta${count}" value = "progresso" onclick="atualizar_meta( ${meta.id_meta},'progresso')">
                             <label>Concluída:</label>
                             <input type = "radio" id="status_meta" name = "status_meta${count}" value= "concluida" checked onclick="atualizar_meta( ${meta.id_meta},'concluida')">
                         `;

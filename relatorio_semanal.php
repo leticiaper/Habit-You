@@ -76,6 +76,9 @@
         <div class="col-lg-2"></div>
         <div class="col-lg-8">
             <h1 class="titulo">Relatório de Progresso Semanal</h1>
+            <a href="tela_inicial.php">
+                <img class= "back" src="imgs/back.png" width="30px" >
+            </a>
             <canvas id="graficoMensal" width="400" height="200"></canvas>
         </div>
         <div class="col-lg-2"></div>
